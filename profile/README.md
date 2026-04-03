@@ -24,8 +24,16 @@ Unlike traditional agent frameworks that run agents in-memory, Agentspan compile
 ### Get Started in 60 Seconds
 
 ```bash
-npm install -g @agentspan-ai/agentspan
+# macOS / Linux
+curl -fsSL https://raw.githubusercontent.com/agentspan-ai/agentspan/main/cli/install.sh | sh
+
+# Windows (PowerShell)
+irm https://raw.githubusercontent.com/agentspan-ai/agentspan/main/cli/install.ps1 | iex
+
+# Install Python SDK
 pip install agentspan
+
+
 agentspan server start
 ```
 
@@ -60,6 +68,11 @@ with AgentRuntime() as runtime:
 | Repository | Description |
 |---|---|
 | [agentspan](https://github.com/agentspan-ai/agentspan) | Core runtime, SDKs (Python & TypeScript), CLI, server, and UI |
+| [Python SDK](https://github.com/agentspan-ai/agentspan/tree/main/sdk/python) | Python SDk |
+| [Typescript SDK](https://github.com/agentspan-ai/agentspan/tree/main/sdk/typescript) | Typescript SDK |
+
+#### Where are other SDKs?
+Java, .NET, Golang, Rust, Ruby SDKs are in works and going to be available here soon!
 
 ### Links
 
