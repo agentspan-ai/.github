@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://agentspan.ai/logos/agentspan-logo-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://agentspan.ai/logos/agentspan-logo.png">
-    <img src="https://agentspan.ai/logos/agentspan-logo.png" alt="Agentspan" width="360">
+    <source media="(prefers-color-scheme: light)" srcset="https://agentspan.ai/logos/agentspan-logo-light.png">
+    <img src="https://agentspan.ai/logos/agentspan-logo-light.png" alt="Agentspan" width="360">
   </picture>
 </p>
 
